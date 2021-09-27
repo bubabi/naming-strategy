@@ -17,4 +17,7 @@ public interface BaseQueryParams {
 
     @JsonProperty("demote-oos")
     Optional<Boolean> getDemoteOos();
+
+    @JsonProperty("demote_oos_test")
+    Optional<Boolean> getDemoteOosTest();
 }
